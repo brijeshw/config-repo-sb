@@ -16,7 +16,7 @@ spring:
       leak-detection-threshold: 30000
 #      driver-class-name: com.mysql.jdbc.Driver
       jdbc-url: jdbc:mysql://localhost:3306/testdb?useSSL=false
-      username: root
+      username: '{cipher}3d6a7c14e4ade59dbbd61837858fa8e985b7da4b3d254cf291b11e76740f8861'
       password: 
     type: com.zaxxer.hikari.HikariDataSource
 #    url: jdbc:mysql://localhost:3306/testdb?useSSL=false
